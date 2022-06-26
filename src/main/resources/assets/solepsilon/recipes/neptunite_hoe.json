@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ##",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "solepsilon:neptunite"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "solepsilon:neptunite_hoe",
+    "count": 1
+  }
+}

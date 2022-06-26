@@ -16,21 +16,13 @@ import net.minecraft.item.ItemStack;
 import java.util.Set;
 
 public class ToolAxe extends ItemAxe implements IHasModel {
-
-    private static final Set<Block> EFFECTIVE_ON = Sets.newHashSet(Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN, Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE);
-    public ToolAxe(String name,ToolMaterial material, CreativeTabs tab) {
-        super(material);
+    public ToolAxe(String name, ToolMaterial mat, float damage, float speed, CreativeTabs tab) {
+        super(mat, damage, speed);
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(tab);
 
         ItemInit.ITEMS.add(this);
-    }
-
-    public float getStrVsBlock(ItemStack stack, IBlockState state)
-    {
-        Material material = state.getMaterial();
-        return material != Material.WOOD && material != Material.PLANTS && material != Material.VINE ? 1 : this.toolMaterial.getEfficiency();
     }
 
     @Override

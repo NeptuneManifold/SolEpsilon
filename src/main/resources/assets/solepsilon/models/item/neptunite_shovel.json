@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "solepsilon:item/neptunite_shovel"
+    "layer0": "solepsilon:items/neptunite_shovel"
   }
 }

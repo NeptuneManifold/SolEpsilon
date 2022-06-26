@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "solepsilon:block_neptunite"
+    }
+  ],
+  "result": {
+    "item": "solepsilon:neptunite",
+    "count": 9
+  }
+}

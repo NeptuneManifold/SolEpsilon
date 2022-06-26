@@ -3,15 +3,20 @@ item.neptunite.name=Neptunite
 
 #blocks
 tile.block_neptunite.name=Block of Neptunite
+tile.neptunite_ore.name=Neptunite ore
 
 #armors
 item.neptunite_boots.name=Neptunite Boots
 item.neptunite_leggings.name=Neptunite Leggings
 item.neptunite_chestplate.name=Neptunite Chestplate
-Item.neptunite_helmet.name=Neptunite Helmet
+item.neptunite_helmet.name=Neptunite Helmet
 #tools
-Item.neptunite_sword.name=Neptunite Sword
-Item.neptunite_axe.name=Neptunite Axe
-Item.neptunite_hoe.name=Neptunite Hoe
-Item.neptunite_pickaxe.name=Neptunite Pickaxe
-Item.neptunite_shovel.name=Neptunite Shovel
+item.neptunite_sword.name=Neptunite Sword
+item.neptunite_axe.name=Neptunite Axe
+item.neptunite_hoe.name=Neptunite Hoe
+item.neptunite_pickaxe.name=Neptunite Pickaxe
+item.neptunite_shovel.name=Neptunite Shovel
+#tabs
+itemGroup.combattab=SolEpsilon Combat
+itemGroup.itemtab=SolEpsilon Items
+itemGroup.solepsilonblocktab=SolEpsilon Blocks
