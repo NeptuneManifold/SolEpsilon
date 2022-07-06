@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "nnn",
+        " s ",
+        " s "
+    ],
+    "key": {
+        "n": {
+            "item": "solepsilon:tin_ingot"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "solepsilon:tin_pickaxe",
+        "count": 1
+    }
+}

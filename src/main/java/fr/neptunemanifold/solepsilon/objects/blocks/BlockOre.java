@@ -49,4 +49,6 @@ public class BlockOre extends net.minecraft.block.BlockOre implements IHasModel{
         int minDrop = min;
         return rand.nextInt(maxDrop)+minDrop;
     }
+
+
 }

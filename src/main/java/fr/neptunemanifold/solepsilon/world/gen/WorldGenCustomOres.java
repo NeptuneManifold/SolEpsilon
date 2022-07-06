@@ -16,9 +16,11 @@ import java.util.Random;
 public class WorldGenCustomOres implements IWorldGenerator {
     private WorldGenerator ore_overworld_neptunite;
     private WorldGenerator ore_overworld_copper;
+    private WorldGenerator ore_overworld_tin;
     public WorldGenCustomOres(){
         ore_overworld_neptunite = new WorldGenMinable(BlockInit.NEPTUNITE_ORE.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.STONE));
         ore_overworld_copper = new WorldGenMinable(BlockInit.COPPER_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.STONE));
+        ore_overworld_tin = new WorldGenMinable(BlockInit.TIN_ORE.getDefaultState(), 4, BlockMatcher.forBlock(Blocks.STONE));
     }
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider){
@@ -27,7 +29,8 @@ public class WorldGenCustomOres implements IWorldGenerator {
                 break;
             case 0:
                 runGenerator(ore_overworld_neptunite,world,random,chunkX,chunkZ,10,0,30);
-                runGenerator(ore_overworld_copper,world,random,chunkX,chunkZ,50,0,100);
+                runGenerator(ore_overworld_copper,world,random,chunkX,chunkZ,75,0,100);
+                runGenerator(ore_overworld_tin,world,random,chunkX,chunkZ,70,0,100);
                 break;
             case 1:
                 break;

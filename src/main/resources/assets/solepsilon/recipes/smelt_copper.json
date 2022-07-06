@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "solepsilon:copper_ore"
+    },
+    "result": "solepsilon:copper_ingot",
+    "experience": 0.1,
+    "cookingtime": 200
+}

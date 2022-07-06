@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+      "all": "solepsilon:blocks/tin_ore"
+    }
+  }

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "# #",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "solepsilon:tin_ingot"
+      }
+    },
+    "result": {
+      "item": "solepsilon:tin_boots",
+      "count": 1
+    }
+  }
+  

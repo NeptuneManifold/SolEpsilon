@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+      "normal":
+      {
+        "model": "solepsilon:machine_frame"
+      }
+    }
+  }
